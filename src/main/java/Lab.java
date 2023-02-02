@@ -38,6 +38,24 @@ public class Lab {
 
 //        code here
 
+        while(i<end){
+
+            sum = sum +i;
+            i  = i+1;
+            
+        }
+
         return sum;
+    }
+
+    public static void main(String[] args){
+
+        Lab addValue = new Lab();
+
+        int result = addValue.whileExample(5);
+
+        System.out.println("The result is: " + result);
+
+
     }
 }
